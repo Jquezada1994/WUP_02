@@ -41,11 +41,16 @@ The response variable VitC is numerical.The explanatory variable is categorical.
 boxplot(VitC~Cult,data=veggy)
 ```
 
-According to the graph C52 takes longer to cultivate.
+According to the graph C52 has more VitC the difference is of C52 has a total of about 15 IU's.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
 
 ## Inferential Results
 
